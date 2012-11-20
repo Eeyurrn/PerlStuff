@@ -232,6 +232,7 @@ sub pretty_format
 =parse_date
 Returns a string with the Year, Month, Day, and time in format year-month-day-hours:minutes:seconds
 =cut
+
 sub parse_date
 {
 	my($year,$month,$date,$time);
