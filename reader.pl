@@ -86,7 +86,9 @@ for my $i (0..$#itemHashes)
 =pretty_format
 Prints out a string ensuring it is 80 characters wide, preserves integrity of words.
 Takes a string as a parameter and returns a string which will fit within the 80 character requirement
+
 =cut
+
 sub pretty_format
 {
 	my $string = $_[0];
