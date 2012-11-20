@@ -177,8 +177,6 @@ sub print_to_txt
 =remove_tags
 Function to remove tags from Title, Description and Author.
 Some pages use HTML tags embedded into the into the content using CDATA, this removes them
-
-
 =cut
 
 
@@ -203,8 +201,6 @@ sub remove_tags
 =pretty_format
 Prints out a string ensuring it is 80 characters wide, preserves integrity of words.
 Takes a string as a parameter and returns a string which will fit within the 80 character requirement
-
-
 =cut
 
 
@@ -238,8 +234,6 @@ sub pretty_format
 }
 =parse_date
 Returns a string with the Year, Month, Day, and time in format year-month-day-hours:minutes:seconds
-
-
 =cut
 
 
@@ -310,8 +304,6 @@ return @sortedList;
 
 =output_to_file
 Used to validate the output file extension. then chooses the appropriate output function.
-
-
 =cut
 
 
@@ -388,8 +380,6 @@ sub print_to_html
 
 =print_to_xml
 Prints output to XML file
-
-
 =cut
 
 
@@ -442,8 +432,6 @@ sub print_to_xml
 
 =date_compare
 returns 1 if first date is later than second 0 if the same, -1 if it is earlier
-
-
 =cut
 
 
