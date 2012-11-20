@@ -178,7 +178,6 @@ sub print_to_txt
 Function to remove tags from Title, Description and Author.
 Some pages use HTML tags embedded into the into the content using CDATA, this removes them
 =cut
-
 sub remove_tags
 {
 # used to remove embedded html tags for text output, preserves tags for html output
